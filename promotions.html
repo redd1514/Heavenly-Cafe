@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promotions</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!--header-->
+  <header class="header">
+    <div class="container">
+      <nav>
+        <img src="img/home/heavenly_logo1.jpg" class="logo" alt="Heavenly Café Logo">
+        <ul id="sidemenu">
+            <li><a href="index.html" class="nav-link btn">Home</a></li>
+            <li><a href="menu.html" class="nav-link btn">Menu</a></li>
+            <li><a href="aboutus.html" class="nav-link btn">About Us</a></li>
+            <li><a href="promotion.html" class="nav-link btn">Promotions</a></li>
+            <li><a href="gallery.html" class="nav-link btn">Gallery</a></li>
+            <li><a href="contact.html" class="nav-link btn">Contact Us</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!--Promos-->
+    <section id="promo-section" class="featured">
+      <div class="promo-header">
+            <h2>Featured</h2>
+      </div>
+
+        <div id="promo-container" class="featured">
+            <div id="promo-image" class="featured">
+                <img id="featured-img" src="img/promo/promo2.jpg" alt="Featured Promo">
+            </div>
+
+            <div class="promo-details" id="featured-desc">
+                <h2>𝐅𝐑𝐄𝐄 𝐂𝐎𝐅𝐅𝐄𝐄 𝐀𝐋𝐋 𝐃𝐀𝐘!</h2>
+                <p>Join our Free coffee tuesday club⭐️<br>Just Visit us @HeavenlyCafe.</p>
+                <a href="https://www.facebook.com/share/1CFqw8wVy4/" class="btn-learn">LEARN MORE</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--line-->
+    <hr class="black-line">
+  <!-- Other Promos -->
+  <div class="promo-list" id="promo-list">
+    <div class="promo-card"
+         data-image="img/promo/promo1.jpg"
+         data-title="Help us brew up some buzz!"
+         data-description="We want to hear from you — share your experience and leave us a great public review!
+As a thank you, enjoy a FREE refill every Wednesday just for spreading the love.
+Sip, smile, and let your voice be heard!
+"
+         onclick="promoCardClicked(this)"  >
+      <img src="img/promo/promo1.jpg" alt="Matcha">
+      <h3>Help us brew up some buzz!</h3>
+    </div>
+
+    <div class="promo-card"
+         data-image="img/promo/valentines.jpg"
+         data-title="Walang mabibitter this Valentine's"
+         data-description="Treat yourself and your loved ones with our sweet deal:
+Buy 2 Grande and get 1 Tall FREE or Buy 2 Venti and get 1 Grande FREE — on any chosen drinks!
+Promo runs from February 12 to 19.
+Share the love, not the bitterness!
+"
+         onclick="promoCardClicked(this)">
+      <img src="img/promo/valentines.jpg" alt="Unli Rice">
+      <h3>Walang mabibitter this Valentine's</h3>
+    </div>
+
+    <div class="promo-card"
+         data-image="img/promo/promo3.jpg"
+         data-title="We Did It Angles!  Happy 1st Monthsary to Us."
+         data-description="To celebrate, enjoy 3 cups of your favorite drinks and get a chance to receive a FREE Heavenly Body Lip Tint
+Because you deserve something sweet and stunning!
+"
+         onclick="promoCardClicked(this)">
+      <img src="img/promo/promo3.jpg" alt="Unli Rice">
+      <h3>We Did It Angles!  Happy 1st Monthsary to Us.</h3>
+    </div>
+    
+    <div class="promo-card"
+         data-image="img/promo/promo4.jpg"
+         data-title="Aim For Them Angels!!"
+         data-description="As a token of our appreciation for your love and support at Heavenly Cafe,
+we’re giving away a FREE sticker with every Grande or Venti drink purchase.
+Collect yours and sip in style!
+ "
+         onclick="promoCardClicked(this)">
+      <img src="img/promo/promo4.jpg" alt="Unli Rice">
+      <h3>Aim For Them Angels!!</h3>
+    </div>
+    <div class="promo-card"
+         data-image="img/promo/promo4.jpg"
+         data-title="Aim For Them Angels!!"
+         data-description="As we appreciate your support at Heavenly Cafe. We would like to offer you a sticker for either Grande or Venti Purchase. "
+         onclick="promoCardClicked(this)">
+      <img src="img/promo/promo4.jpg" alt="Unli Rice">
+      <h3>Aim For Them Angels!!</h3>
+    </div>
+    <div class="promo-card"
+         data-image="img/promo/promo4.jpg"
+         data-title="Aim For Them Angels!!"
+         data-description="As we appreciate your support at Heavenly Cafe. We would like to offer you a sticker for either Grande or Venti Purchase. "
+         onclick="promoCardClicked(this)">
+      <img src="img/promo/promo4.jpg" alt="Unli Rice">
+      <h3>Aim For Them Angels!!</h3>
+    </div>
+  </div>
+
+
+
+  <!--footer-->
+  <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section">
+            <p class="quick">Quick links</p>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="menu.html">Menu</a></p>
+            <p><a href="aboutus.html">About Us</a></p>
+            <p><a href="promotions.html">Promotions</a></p>
+            <p><a href="gallery.html">Gallery</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
+          </div>
+      
+          <div class="footer-divider"></div>
+      
+          <div class="footer-section">
+            <p><i class="fa-regular fa-envelope"></i></i> HeavenlyCafe@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i>0001 F Andaya St. Wawangpulo,<br>Valenzuela City, Philippines</p>
+          </div>
+      
+          <div class="footer-divider"></div>
+      
+          <div class="footer-section">
+            <p>Follow us</p>
+            <img src="img/home/logo.jpg" alt="">
+            <div class="footer-icons">
+              <a href="https://www.bing.com/ck/a?!&&p=9f76c1870134eb340e4f14eb00a302fcf907b00fbb734e9cb92f3f5f4ec9f56cJmltdHM9MTc0NzQ0MDAwMA&ptn=3&ver=2&hsh=4&fclid=1fe0fd62-65a1-66aa-33d4-e9d664b56718&psq=heavenly+cafe&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3Blb3BsZS9IZWF2ZW5seS1DYWYlQzMlQTkvNjE1NjY0Mzc5MzY4NDkv&ntb=1"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+
+        </div>
+      
+        <div class="footer-bottom">
+          <p>© 2025, All Rights Reserved</p>
+        </div>
+      
+        <div class="back-to-top">
+            <a href="#top">BACK TO TOP ></a>
+        </div>
+        
+      </footer>
+
+    <script src="js/promos.js"></script>
+
+</body>
+</html>
